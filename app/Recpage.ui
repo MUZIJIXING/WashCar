@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>903</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>自助洗车系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="text">
+       <string>自助洗车系统</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLabel {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgba(240, 240, 240, 0.5); /* 半透明的浅灰色 */
+            /* 设置一个几乎透明的边框，或者完全移除边框 */
+            border: 1px solid rgba(204, 204, 204, 0.3); /* 50% 透明度的边框 */
+            /* 或者完全移除边框 */
+            /* border: none; */
+            padding: 5px;
+        }
+       </string>
+      </property>
+      <property name="minimumHeight">
+       <number>30</number>
+      </property>
+      <property name="maximumHeight">
+       <number>30</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="buttonWidget">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="viewHistoryButton">
+         <property name="text">
+          <string>查看历史洗车记录</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="startWashButton">
+         <property name="text">
+          <string>开始洗车</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stopWashButton">
+         <property name="text">
+          <string>结束洗车</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="startMonitoringButton">
+         <property name="text">
+          <string>开启监控</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stopMonitoringButton">
+         <property name="text">
+          <string>关闭监控</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exitButton">
+         <property name="text">
+          <string>退出系统</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="videoLabel">
+      <property name="text">
+       <string>视频显示区域</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLabel {
+          background-color: #F0F0F0;
+          border: 1px solid #CCCCCC;
+          font-size: 16px;
+        }
+       </string>
+      </property>
+      <property name="minimumHeight">
+       <number>500</number> <!-- 设置最小高度为300 -->
+      </property>
+      <property name="maximumHeight">
+       <number>500</number> <!-- 设置最大高度为300 -->
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="timerLabel">
+      <property name="text">
+       <string>计时：00:00:00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLabel {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgba(240, 240, 240, 0.5); /* 半透明的浅灰色 */
+            /* 设置一个几乎透明的边框，或者完全移除边框 */
+            border: 1px solid rgba(204, 204, 204, 0.3); /* 50% 透明度的边框 */
+            /* 或者完全移除边框 */
+            /* border: none; */
+            padding: 5px;
+        }
+       </string>
+      </property>
+      <property name="minimumHeight">
+       <number>30</number>
+      </property>
+      <property name="maximumHeight">
+       <number>30</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="statusLabel">
+      <property name="text">
+       <string>系统状态</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLabel {
+          background-color: #FFFFFF;
+          border-top: 1px solid #CCCCCC;
+          font-size: 16px;
+          padding: 10px;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

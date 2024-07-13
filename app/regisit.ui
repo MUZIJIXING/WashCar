@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWindow</class>
+ <widget class="QWidget" name="RegisterWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>注册新用户</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLabel {
+          font-size: 24px;
+          font-weight: bold;
+          padding: 20px;
+          color: white;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="usernameLineEdit">
+      <property name="placeholderText">
+       <string>用户名</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLineEdit {
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passwordLineEdit">
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>密码</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLineEdit {
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="confirmPasswordLineEdit">
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>确认密码</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLineEdit {
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="emailLineEdit">
+      <property name="placeholderText">
+       <string>邮箱</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QLineEdit {
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="registerButton">
+      <property name="text">
+       <string>注册</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QPushButton {
+          background-color: #007BFF;
+          color: white;
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+        }
+        QPushButton:hover {
+          background-color: #0056b3;
+        }
+        QPushButton:pressed {
+          background-color: #004080;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="returnButton">
+      <property name="text">
+       <string>返回登录</string>
+      </property>
+      <property name="styleSheet">
+       <string>
+        QPushButton {
+          background-color: #6c757d;
+          color: white;
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+        }
+        QPushButton:hover {
+          background-color: #5a6268;
+        }
+        QPushButton:pressed {
+          background-color: #4e555b;
+        }
+       </string>
+      </property>
+     </widget>
+    </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

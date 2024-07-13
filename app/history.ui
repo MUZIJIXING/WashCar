@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HistoryRecords</class>
+ <widget class="QWidget" name="HistoryRecords">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>903</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>洗车历史记录</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>洗车历史记录</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: black;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>6</number>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: black;</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>记录编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>车型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>洗车开始时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>洗车结束时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>洗车时长</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>洗车费用</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="exportButton">
+     <property name="text">
+      <string>导出历史记录</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: black;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="returnButton">
+     <property name="text">
+      <string>返回</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: black;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

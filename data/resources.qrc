@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/">
+    <file>op_bk2.jpg</file>
+    <file>op_bk1.jpg</file>
+    <file>op_bk3.jpg</file>
+    <file>login_bk1.jpg</file>
+    <file>login_bk2.jpg</file>
+    <file>login_bk3.jpg</file>
+</qresource>
+</RCC>
